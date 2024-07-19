@@ -1,0 +1,57 @@
+.wrap{
+    margin: 40px;
+    font-family: 'Montserrat';
+    &-auth{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        &-content{
+            width: 400px;
+            border: 1px solid #b7b7b7;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            &-title{
+                margin: 40px;
+                span{
+                    font-size: 26px;
+                    font-weight: bolder;
+                }
+            }
+            &-login{
+                margin-bottom: 25px;
+                input{
+                    padding: 10px;
+                    width: 200px;
+                }
+            }
+            &-pass{
+                margin-bottom: 25px;
+                input{
+                    padding: 10px;
+                    width: 200px;
+                }
+            }
+            &-inp {
+                margin-bottom: 5px;
+                input{
+                    width: 230px;
+                    padding: 10px;
+                    background-color: rgb(246, 160, 0);
+                    border: none;
+                    margin: 5px;
+                    font-size: 16px;
+                    cursor: pointer;
+                    border-radius: 10px;
+                }
+            }
+            &-reg{
+                margin-bottom: 25px;
+                a{
+                    color: black;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  width: 100%;
+  font-family: "Montserrat";
+  border-bottom: 2px solid #eaeaea;
+  margin-bottom: 20px;
+}
+
+.header-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 35px;
+}
+
+.header-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header-logo-title {
+  margin: 0px 10px;
+}
+
+.header-logo-title-p {
+  margin: -17px 0px;
+  font-size: 16px;
+}
+
+.header-logo-title-span {
+  margin-top: -4px;
+}
+
+.header-logo-title-span span {
+  font-weight: bolder;
+  font-size: 24px;
+}
+
+.header-logo-img {
+  cursor: pointer;
+}
+
+.header-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 10px 0px;
+}
+
+.header-icons-shop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0px 20px;
+  cursor: pointer;
+}
+
+.header-icons-shop-span {
+  margin: 2px 5px;
+}
+
+.header-icons-love {
+  margin: 0px 20px;
+  cursor: pointer;
+}
+
+.header-icons-user {
+  margin: 0px 20px;
+  cursor: pointer;
+}
+
+.shop-products {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 10px 0px 40px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  height: 540px;
+  overflow-y: scroll;
+  width: 290px;
+}
+
+.shop-products-item {
+  width: 200px;
+  height: 280px;
+  border: 1px solid #eaeaea;
+  border-radius: 10%;
+  padding: 20px;
+  margin: 10px 5px;
+}
+
+.shop-products-item-price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 10px 0px;
+}
+
+.shop-products-item-price-block-title span {
+  color: #afafaf;
+}
+
+.shop-products-item-price-block-number span {
+  font-weight: bolder;
+}
+
+.shop-products-item-price-plus {
+  border: 1px solid #eaeaea;
+  border-radius: 15%;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5px 10px;
+}
+
+.clear-shop:hover {
+  border-color: #90b894 !important;
+  color: #90b894 !important;
+}
+/*# sourceMappingURL=style.css.map */

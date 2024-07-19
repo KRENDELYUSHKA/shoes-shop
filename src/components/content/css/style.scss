@@ -1,0 +1,46 @@
+.content{
+    width: 90%;
+    margin: 20px 90px;
+    font-family: 'Montserrat';
+    &-title span{
+        font-size: 32px;
+        font-weight: bolder;
+    }
+    &-products{
+        display: flex;
+        margin: 10px 0px;
+        flex-wrap: wrap;
+        height: 680px;
+        overflow-y: scroll;
+        &-item{
+            width: 260px;
+            height: 280px;
+            border: 1px solid #EAEAEA;
+            border-radius: 10%;
+            padding: 20px;
+            margin: 10px 10px;
+            &-price{
+                display: flex;
+                justify-content: space-between;
+                margin: 10px 0px;
+                width: 80%;
+                &-block{
+                    &-title span{
+                        color: #afafaf;
+                    }
+                    &-number span{
+                        font-weight: bolder;
+                    }
+                }
+                &-plus{
+                    border: 1px solid #EAEAEA;
+                    border-radius: 15%;
+                    cursor: pointer;
+                    display: flex;
+                    align-items: center;
+                    padding: 5px 10px;
+                }
+            }
+        }
+    }
+}

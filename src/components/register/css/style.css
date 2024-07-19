@@ -1,0 +1,81 @@
+.wrap {
+  margin: 40px;
+  font-family: 'Montserrat';
+}
+
+.wrap-auth {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+.wrap-auth-content {
+  width: 400px;
+  border: 1px solid #b7b7b7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrap-auth-content-title {
+  margin: 40px;
+}
+
+.wrap-auth-content-title span {
+  font-size: 26px;
+  font-weight: bolder;
+}
+
+.wrap-auth-content-login {
+  margin-bottom: 25px;
+}
+
+.wrap-auth-content-login input {
+  padding: 10px;
+  width: 200px;
+}
+
+.wrap-auth-content-pass {
+  margin-bottom: 25px;
+}
+
+.wrap-auth-content-pass input {
+  padding: 10px;
+  width: 200px;
+}
+
+.wrap-auth-content-inp {
+  margin-bottom: 5px;
+}
+
+.wrap-auth-content-inp input {
+  width: 230px;
+  padding: 10px;
+  background-color: #f6a000;
+  border: none;
+  margin: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.wrap-auth-content-reg {
+  margin-bottom: 25px;
+}
+
+.wrap-auth-content-reg a {
+  color: black;
+  font-size: 16px;
+}
+/*# sourceMappingURL=style.css.map */
